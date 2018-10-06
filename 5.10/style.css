@@ -1,0 +1,46 @@
+.buttons-container{
+    margin-top:50px;
+   
+}
+
+a[class^="button"]{
+box-sizing: border-box;
+border: 1px red solid;
+
+}
+
+
+.button{
+border: 1px solid black;
+padding: 8px 12px;
+background: white;
+text-decoration: none;
+
+
+}
+
+.button--big {
+font-size:18px;
+font-weight: bold;
+padding:15px 30px;
+margin: 20px;
+}
+
+.button--orange{
+    background-color: orange;
+}
+
+.button--blue{
+    background-color: blue;
+}
+
+
+.button--green{
+    background-color:green;
+}
+
+@media (max-width:600px){
+    body{
+        background-color: aquamarine;
+    }
+}
